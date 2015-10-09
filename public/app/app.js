@@ -1,0 +1,1 @@
+angular.module("myApp",["ng.deviceDetector"]).controller("myCtrl",["deviceDetector",function(t){var a=this;a.data=t,a.allData=JSON.stringify(a.data,null,2)}]);

@@ -1,0 +1,80 @@
+$headerTextColor: #ffffff;
+$footerBackground : #424242;
+$footerText : #ffffff;
+$tileBgColor : #B9F6CA;
+
+md-toolbar {
+	form {
+		margin-top:30px;
+		md-input-container {
+			label {
+				color: $headerTextColor !important;
+			}
+			input {
+				color: $headerTextColor !important;
+			}
+			button {
+				margin-top:25% !important;
+				font-weight: bold !important;
+			}
+		}
+	}
+}
+
+.feeds {
+	md-grid-list {
+		md-grid-tile {
+			background-color:$tileBgColor;
+			md-grid-tile-footer,md-grid-tile-header {
+				background-color:black;
+				opacity:0.8;
+				figcaption {
+					width:100%;
+					h3 {
+						margin: 0;
+						font-weight: 700;
+						width: 100%;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}
+.header2 {
+	background-color:white;
+	border-bottom:1px solid #ccc;
+	color:rgb(63, 81, 181);
+	.md-toolbar-tools {
+		margin-top:25%;
+		.md-button {
+			font-weight:bold;
+		}
+	}
+}
+
+.feeds {
+	md-grid-tile {
+		transition: all 400ms ease-out 50ms;
+	}
+	.feed {
+		img {
+			width:100%;
+			height:100%;
+		}
+	}
+}
+
+.landing {
+	.signup {
+		max-width:500px;
+		margin-top: 115px;
+		width:50%;
+		border:1px solid #ccc;
+	}
+}
+
+.footer {
+	color: $footerText;
+	background-color: $footerBackground;
+}

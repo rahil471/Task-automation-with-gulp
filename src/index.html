@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="assets/stylesheets/style.css">
+	</head>
+	<body ng-app="myApp">
+		<div ng-controller="myCtrl as vm">
+			<p>You are using <b>{{vm.data.browser}}</b> on <b>{{vm.data.os}} ({{vm.data.os_version}})</b>.</p>
+			<p>Your <b>{{vm.data.browser}}</b> version is <b>{{vm.data.browser_version}}</b></p>
+			<p>Device - <b></b>{{vm.data.device}}</p>
+			<p>Complete deviceDetector data - <b></b><pre>{{vm.allData}}<pre></p>
+		</div>
+	</body>
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="bower_components/ng-device-detector/ng-device-detector.min.js"></script>
+	<script type="text/javascript" src="bower_components/re-tree/re-tree.min.js"></script> 
+	<script type="text/javascript" src="app/app.js"></script>
+</html>

@@ -1,0 +1,48 @@
+md-toolbar form {
+  margin-top: 30px; }
+  md-toolbar form md-input-container label {
+    color: #ffffff !important; }
+  md-toolbar form md-input-container input {
+    color: #ffffff !important; }
+  md-toolbar form md-input-container button {
+    margin-top: 25% !important;
+    font-weight: bold !important; }
+
+.feeds md-grid-list md-grid-tile {
+  background-color: #B9F6CA; }
+  .feeds md-grid-list md-grid-tile md-grid-tile-footer, .feeds md-grid-list md-grid-tile md-grid-tile-header {
+    background-color: black;
+    opacity: 0.8; }
+    .feeds md-grid-list md-grid-tile md-grid-tile-footer figcaption, .feeds md-grid-list md-grid-tile md-grid-tile-header figcaption {
+      width: 100%; }
+      .feeds md-grid-list md-grid-tile md-grid-tile-footer figcaption h3, .feeds md-grid-list md-grid-tile md-grid-tile-header figcaption h3 {
+        margin: 0;
+        font-weight: 700;
+        width: 100%;
+        text-align: center; }
+
+.header2 {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  color: #3f51b5; }
+  .header2 .md-toolbar-tools {
+    margin-top: 25%; }
+    .header2 .md-toolbar-tools .md-button {
+      font-weight: bold; }
+
+.feeds md-grid-tile {
+  transition: all 400ms ease-out 50ms; }
+
+.feeds .feed img {
+  width: 100%;
+  height: 100%; }
+
+.landing .signup {
+  max-width: 500px;
+  margin-top: 115px;
+  width: 50%;
+  border: 1px solid #ccc; }
+
+.footer {
+  color: #ffffff;
+  background-color: #424242; }
